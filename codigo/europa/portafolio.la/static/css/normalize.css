@@ -7,9 +7,10 @@
  */
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Open Sans', sans-serif;
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  font-size: 16px;
 }
 
 /**

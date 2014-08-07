@@ -4,6 +4,7 @@
     <head>
         <title>Mi portafolio online</title>
         <meta charset="UTF-8"/>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="../static/css/normalize.css"/>
         <link rel="stylesheet" href="../static/css/estilos.css"/>
     </head>
@@ -27,7 +28,7 @@
             </nav>
 
             <figure class="Header-imageContainer">
-                <img src="avatar.jpg" alt="@LeonidasEsteban" class="Header-image"/>
+                <img src="../static/images/avatar.jpg" alt="@LeonidasEsteban" class="Header-image"/>
                 <figcaption class="Header-description">
                     <a href="http://twitter.com/leonidasesteban/" target="_blank" class="Header-link">@Leonidasesteban</a>
                 </figcaption>
@@ -35,52 +36,58 @@
             </figure>
         </header>
         <section id="perfil" class="Profile">
-            <h2 class="Profile-title u-title">Mi Perfil</h2>
+            <div class="u-containerDefault"> 
+                <h2 class="Profile-title u-title">Mi Perfil</h2>
 
-            <p class="Profile-description">Puedes visitar mis redes sociales si quieres seguirme</p>
+                <p class="Profile-description">Puedes <strong>visitar</strong> mis redes <span class="Profile-span">sociales</span> si quieres <em>seguirme</em></p>
 
-            <a class="Profile-link" href="http://twitter.com/leonidasesteban/">@LeonidasEsteban</a>
+                <a class="Profile-link" href="http://twitter.com/leonidasesteban/">@LeonidasEsteban</a>
 
-            <a class="Profile-link" href="http://facebook.com/leonidasesteban/">LeonidasEsteban</a>
+                <a class="Profile-link" href="http://facebook.com/leonidasesteban/">LeonidasEsteban</a>
 
-            <a class="Profile-link" href="http://github.com/leonidasesteban/">LeonidasEsteban</a>
+                <a class="Profile-link" href="http://github.com/leonidasesteban/">LeonidasEsteban</a>
+            </div>
         </section>
         <section id="trabajo" class="Work">
-            <h2 class="Work-title u-title">Mi Trabajo</h2>
-            <article class="Work-item">
-                <figure class="Work-imageContainer">
-                    <img class="Work-image" src="trabajo.jpg" alt="Mejorando.la"/>
-                    <figcaption>Sitio de Mejorando.la</figcaption>
-                </figure>
-            </article>
-            <article class="Work-item">
-                <figure class="Work-imageContainer">
-                    <img class="Work-image" src="trabajo.jpg" alt="Mejorando.la"/>
-                    <figcaption class="Work-description">Sitio de Mejorando.la</figcaption>
-                </figure>
-            </article>
-            <article class="Work-item">
-                <figure class="Work-imageContainer">
-                    <img class="Work-image" src="trabajo.jpg" alt="Mejorando.la"/>
-                    <figcaption class="Work-description">Sitio de Mejorando.la</figcaption>
-                </figure>
-            </article>
-            <article class="Work-item">
-                <figure class="Work-imageContainer">
-                    <img class="Work-image" src="trabajo.jpg" alt="Mejorando.la"/>
-                    <figcaption class="Work-description">Sitio de Mejorando.la</figcaption>
-                </figure>
-            </article>
-            <article class="Work-item">
-                <figure class="Work-imageContainer">
-                    <img class="Work-image" src="trabajo.jpg" alt="Mejorando.la"/>
-                    <figcaption class="Work-description">Sitio de Mejorando.la</figcaption>
-                </figure>
-            </article>
+            <div class="u-containerDefault"> 
+                <h2 class="Work-title u-title">Mi Trabajo</h2>
+            </div>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                        <img class="Work-image" src="../static/images/proyecto.jpg" alt="Mejorando.la"/>
+                        <figcaption>Sitio de Mejorando.la</figcaption>
+                    </figure>
+                </article>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                        <img class="Work-image" src="../static/images/proyecto.jpg" alt="Mejorando.la"/>
+                        <figcaption class="Work-description">Sitio de Mejorando.la</figcaption>
+                    </figure>
+                </article>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                        <img class="Work-image" src="../static/images/proyecto.jpg" alt="Mejorando.la"/>
+                        <figcaption class="Work-description">Sitio de Mejorando.la</figcaption>
+                    </figure>
+                </article>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                        <img class="Work-image" src="../static/images/proyecto.jpg" alt="Mejorando.la"/>
+                        <figcaption class="Work-description">Sitio de Mejorando.la</figcaption>
+                    </figure>
+                </article>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                        <img class="Work-image" src="../static/images/proyecto.jpg" alt="Mejorando.la"/>
+                        <figcaption class="Work-description">Sitio de Mejorando.la</figcaption>
+                    </figure>
+                </article>
         </section>
         <footer id="contacto" class="Footer">
-            <h3 class="Footer-title">Contacto</h3>
-            <p class="Footer-description">Si quieres contratarme puedes escribirme en este pequeño formulario</p>
+            <div class="Footer-left">
+                <h3 class="Footer-title">Contacto</h3>
+                <p class="Footer-description">Si quieres contratarme puedes escribirme en este pequeño formulario</p>
+            </div>
             <form action="" class="Footer-form">
                 <input type="text" placeholder="Nombre" class="Footer-input">
                 <input type="email" placeholder="Email" class="Footer-input">
