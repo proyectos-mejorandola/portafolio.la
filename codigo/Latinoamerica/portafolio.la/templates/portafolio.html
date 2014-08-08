@@ -3,6 +3,7 @@
     <head>
         <title>Portafolio.la</title>
         <meta charset="UTF-8"/>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="../static/css/normalize.css">
         <link rel="stylesheet" href="../static/css/estilos.css">
     </head>
@@ -25,7 +26,7 @@
                 </ul>
             </nav>
             <figure class="Header-imageContainer">
-                <img src="avatar.jpg" alt="Imagen personal" class="Header-image"/>
+                <img src="../static/images/avatar.jpg" alt="Imagen personal" class="Header-image"/>
                 <figcaption class="Header-imageDescription">
                     <a class="Header-link" href="http://twitter.com/leonidasesteban/" target="_black">@LeonidasEsteban</a>
                 </figcaption>
@@ -35,7 +36,7 @@
         <section id="perfil" class="Profile">
             <h2 class="Profile-title u-title">Mi perfil</h2>
             <p class="Profile-description">
-                Hola! si llegaste hasta aqui puedes ver mi portafolio y contactarme
+                <strong>Hola!</strong> si <span class="Profile-span">llegaste</span> hasta aqui puedes ver mi portafolio y <em>contactarme</em>
             </p>
             <a class="Profile-link" href="http://twitter.com/leonidasesteban/" target="_blank">@LeonidasEsteban</a>
             <a class="Profile-link" href="http://facebook.com/leonidasesteban/" target="_blank">Leonidas Esteban</a>
@@ -45,44 +46,46 @@
             <h2 class="Work-title u-title">Mi trabajo</h2>
             <article class="Work-item">
                 <figure class="Work-imageContainer">
-                    <img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
                     <figcaption class="Work-description">Website de mejorando.la</figcaption>
                 </figure>
             </article>
             <article class="Work-item">
                 <figure class="Work-imageContainer">
-                    <img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
                     <figcaption class="Work-description">Website de mejorando.la</figcaption>
                 </figure>
             </article>
             <article class="Work-item">
                 <figure class="Work-imageContainer">
-                    <img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
                     <figcaption class="Work-description">Website de mejorando.la</figcaption>
                 </figure>
             </article>
             <article class="Work-item">
                 <figure class="Work-imageContainer">
-                    <img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
                     <figcaption class="Work-description">Website de mejorando.la</figcaption>
                 </figure>
             </article>
             <article class="Work-item">
                 <figure class="Work-imageContainer">
-                    <img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
                     <figcaption class="Work-description">Website de mejorando.la</figcaption>
                 </figure>
             </article>
             <article class="Work-item">
                 <figure class="Work-imageContainer">
-                    <img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
                     <figcaption class="Work-description">Website de mejorando.la</figcaption>
                 </figure>
             </article>
         </section>
         <footer id="contacto" class="Footer">
-            <h3 class="Footer-title">Contacto</h3>
-            <p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto con este formulario</p>
+            <div class="Footer-left">
+                <h3 class="Footer-title">Contacto</h3>
+                <p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto con este formulario</p>
+            </div>
             <form class="Footer-form">
                 <input class="Footer-formInput"  type="text" placeholder="Nombre"/>
                 <input class="Footer-formInput" type="email" placeholder="Email"/>

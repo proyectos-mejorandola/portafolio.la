@@ -1,27 +1,169 @@
+/* Utilities */
+
+
 .u-title{
-    color: red;
-    text-decoration: underline;
+    border-bottom: 2px dashed #00CCFF;
+    color: #00CCFF;
+    font-weight: normal;
+    font-size: 1.5em;
+    padding-bottom: .5em;
+    text-align: center;
 }
 
+
+/* MainMenu */
+
+.MainMenu{
+    background: #1E1E1E;
+    text-align: center;
+    height: 3.75em;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.MainMenu-list{
+    margin:0;
+    padding: 0;
+}
+
+.MainMenu-item{
+    display: inline-block;
+}
+
+.MainMenu-link{
+    color: #00DBFF;
+    text-decoration: none;
+    line-height: 3.75em;
+    margin-right: 1.5em;
+}
+
+/* Header */
+
+
 .Header{
+    margin-top: 3.75em;
+    background-image: url('../images/portada.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding:1.2em 0;
 }
 
 .Header-imageContainer{
-
+    margin: 0;
 }
 
-.MainMenu{
-
+.Header-image{
+    border: 5px solid white;
+    border-radius: 50%;
 }
+
+.Header-name,
+.Header-link{
+    color: white;
+}
+
+.Header-link{
+    font-size: 2.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Header-name{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+/* Profile */
 
 .Profile{
-
+    text-align: center;
 }
+
+.Profile-link{
+    background: orange;
+    border-radius: 2em;
+    color: white;
+    margin-right: .5em;
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
+/* Work */
 
 .Work{
-
+    margin-top: 2em;
+    text-align: center;
 }
 
-.Footer{
 
+.Work-item{
+    display: inline-block;
+    margin-right: 1.8em;
+    margin-bottom: 1.8em;
+}
+
+.Work-imageContainer{
+    margin: 0;
+}
+
+.Work-description{
+    font-size: 1.1em;
+    color: #515151;
+    font-style: italic;
+}
+
+/* Footer */
+
+.Footer{
+    background-image: url('../images/footer.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2em 0;
+    text-align: center;
+}
+
+
+.Footer-form{
+    text-align: center;
+    display: inline-block;
+}
+
+.Footer-left{
+    display: inline-block;
+    width: 32em;
+    text-align: center;
+    vertical-align: top;
+}
+
+.Footer-title{
+    color: white;
+}
+
+.Footer-formInput,
+.Footer-textarea{
+    background: white;
+    border: none;
+    display: block;
+    border-radius: 2em;
+    padding: .5em;
+    margin: 0 auto 1em;
+}
+
+.Footer-textarea{
+    resize: none;
+}
+
+.Footer-button{
+    background: orange;
+    border-radius: 1em;
+    border: none;
+    color: white;
+    padding: .5em 1em;
 }
