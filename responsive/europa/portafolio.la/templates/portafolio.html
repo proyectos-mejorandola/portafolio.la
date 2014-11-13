@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Portafolio.la</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, maximum-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../static/css/normalize.css">
+        <link rel="stylesheet" href="../static/css/estilos.css">
+    </head>
+    <body>
+        <header id="yo" class="Header">
+            <button class="Header-button icon-showMenu is-active" id="showMenu"></button>
+            <button class="Header-button icon-hideMenu" id="hideMenu"></button>
+            <nav class="MainMenu" id="menu">
+                <ul class="MainMenu-list">
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#yo">Yo</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#perfil">Perfil</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#trabajo">Trabajo</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <figure class="Header-imageContainer">
+                <img src="../static/images/avatar.jpg" alt="Imagen personal" class="Header-image"/>
+                <figcaption class="Header-imageDescription">
+                    <a class="Header-link" href="http://twitter.com/leonidasesteban/" target="_black">@LeonidasEsteban</a>
+                </figcaption>
+            </figure>
+            <p class="Header-name" >Leonidas Esteban</p>
+        </header>
+        <section id="perfil" class="Profile">
+            <div class="u-containerDefault">
+                <h2 class="Profile-title u-title">Mi perfil</h2>
+                <p class="Profile-description">
+                    <strong>Hola!</strong> si <span class="Profile-span">llegaste</span> hasta aqui puedes ver mi portafolio y <em>contactarme</em>
+                </p>
+                <a class="Profile-link icon-twitter twitter" href="http://twitter.com/leonidasesteban/" target="_blank">@LeonidasEsteban</a>
+                <a class="Profile-link icon-facebook facebook" href="http://facebook.com/leonidasesteban/" target="_blank">Leonidas Esteban</a>
+                <a class="Profile-link icon-googleplus gplus" href="http://github.com/leonidasesteban/" target="_blank">LeonidasEsteban</a>
+            </div>
+        </section>
+        <section class="Slider">
+            <div class="u-containerDefault">
+                <h2 class="Slider-title u-title">Mis conferencias</h2>
+            </div>
+            <div class="Slider-container">
+                <ul class="rslides">
+                  <li><img src="../static/images/mexico.jpg" title="Conferencia de México"  alt="Conferencia de México" width="1024" height="400"></li>
+                  <li><img src="../static/images/colombia.jpg" title="Cnferencia de Monteria" alt="Cnferencia de Monteria" width="1024" height="400"></li>
+                  <li><img src="../static/images/peru.jpg" title="Conferencia de Trujillo" alt="Conferencia de Trujillo" width="1024" height="400"></li>
+                </ul>
+            </div>
+        </section>
+        <section id="trabajo" class="Work">
+            <div class="u-containerDefault">
+                <h2 class="Work-title u-title">Mi trabajo</h2>
+            </div>
+            
+            <div class="Work-container u-containerDefault">
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                        <img class="Work-image" src="../static/images/mejorandola.jpg" alt="Es la descripcion de mi imagen">
+                        <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                    </figure>
+                </article>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                        <img class="Work-image" src="../static/images/mejorandola.jpg" alt="Es la descripcion de mi imagen">
+                        <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                    </figure>
+                </article>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                        <img class="Work-image" src="../static/images/mejorandola.jpg" alt="Es la descripcion de mi imagen">
+                        <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                    </figure>
+                </article>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                        <img class="Work-image" src="../static/images/mejorandola.jpg" alt="Es la descripcion de mi imagen">
+                        <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                    </figure>
+                </article>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                        <img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
+                        <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                    </figure>
+                </article>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                        <img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
+                        <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+        <footer id="contacto" class="Footer">
+            <div class="Footer-left">
+                <h3 class="Footer-title">Contacto</h3>
+                <p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto con este formulario</p>
+            </div>
+            <form class="Footer-form">
+                <input class="Footer-formInput"  type="text" placeholder="Nombre"/>
+                <input class="Footer-formInput" type="email" placeholder="Email"/>
+                <textarea class="Footer-textarea" placeholder="Motivo"></textarea>
+                <button type="submit" class="Footer-button"> Contactarme </button>
+            </form>
+        </footer>
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="../static/js/vendors/responsiveslides.min.js"></script>
+        <script src="../static/js/vendors/retina.min.js"></script>
+        <script src="../static/js/vendors/hammer.min.js"></script>
+        <script>
+          $(function() {
+            $(".rslides").responsiveSlides();
+
+            if(window.matchMedia("(max-width:767px)").matches){
+                var $buttonShowMenu = document.getElementById('showMenu');
+                var $buttonHideMenu = document.getElementById('hideMenu');
+                var $menu = document.getElementById('menu');
+                
+                var $body = document.querySelector('body');
+
+                var body = new Hammer($body);
+
+
+                var showMenu = function(){
+                    $buttonShowMenu.classList.remove('is-active');
+                    $buttonHideMenu.classList.add('is-active');
+                    $menu.classList.add('is-active');
+                };
+
+                var hideMenu = function(){
+                    $buttonShowMenu.classList.add('is-active');
+                    $buttonHideMenu.classList.remove('is-active');
+                    $menu.classList.remove('is-active');
+                };
+
+                $buttonShowMenu.addEventListener("click", showMenu);
+
+                $buttonHideMenu.addEventListener("click", hideMenu);
+
+                body.on('panright', showMenu);
+                body.on('panleft', hideMenu);
+            }else{
+                // alert('eres un ipad o algo más grande');
+            }
+          });
+        </script>
+    </body>
+</html>
