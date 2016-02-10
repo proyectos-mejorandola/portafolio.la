@@ -44,6 +44,7 @@
     margin-right: 1.5em;
 }
 
+
 /* Header */
 
 
@@ -97,6 +98,16 @@
     margin-right: .5em;
     padding: .5em 1em;
     text-decoration: none;
+}
+
+.Profile-link.is-link{
+    background: #FF7C0C;
+}  
+.Profile-link.is-twitter{
+    background: #00BAE4;
+}
+.Profile-link{
+    background: #0080C0;
 }
 
 /* Work */
